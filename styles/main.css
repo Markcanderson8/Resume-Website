@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../img/digitization-5140071_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#logo {
+  float: right;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: -4px 4px 4px gray;
+  margin-left: 2em;
+}
+
+header {
+  margin-top: 2em;
+  background-color: rgb(113, 223, 203);
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: -2px 2px 4px black;
+}
+
+h1 {
+  padding: 0.5em;
+}
+
+.header-sub {
+  text-transform: uppercase;
+  padding: 0.5em 1.2em;
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 1rem 1.2em;
+  font-style: italic;
+}
+
+.contact {
+  padding: 0.5em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 15pt;
+}
+
+.email {
+  display: flex;
+}
+
+.email img,
+.github img,
+.phone img {
+  vertical-align: middle;
+}
+
+.github {
+  display: flex;
+}
+
+.phone {
+  display: flex;
+}
+
+.email > a,
+.github > a,
+.phone > a {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  width: 25%;
+}
+
+.nav {
+  text-decoration: none;
+  font-size: 18pt;
+  display: block;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 0.5em;
+  color: black;
+  font-weight: 700;
+}
+
+.last-item {
+  border-bottom-right-radius: 10px;
+}
+
+.first-item {
+  border-bottom-left-radius: 10px;
+}
+.nav:hover {
+  background-color: rgb(113, 223, 203, 0.5);
+}
+
+.education {
+  background-color: rgb(113, 223, 203);
+  border-radius: 15px;
+  margin-top: 2em;
+  text-align: center;
+  line-height: 160%;
+  box-shadow: -2px 2px 4px black;
+  padding-bottom: 1em;
+}
+
+.hardskills {
+  float: left;
+  margin-top: 2em;
+  background-color: rgb(113, 223, 203);
+  width: 45%;
+  height: 350px;
+  border-radius: 15px;
+  margin-bottom: 2em;
+  box-shadow: -2px 2px 4px black;
+}
+
+.softskills {
+  float: right;
+  margin-top: 2em;
+  background-color: rgb(113, 223, 203);
+  width: 45%;
+  height: 350px;
+  border-radius: 15px;
+  margin-bottom: 2em;
+  box-shadow: -2px 2px 4px black;
+}
+
+.hardskills > ul {
+  margin-left: 6em;
+}
+
+.softskills > ul {
+  margin-top: 1em;
+  margin-left: 8em;
+}
+
+.hardskills ul li ul {
+  margin-left: 1em;
+}
+
+.softskills ul li,
+.hardskills ul li {
+  font-size: 15pt;
+  line-height: 1.5em;
+}
+
+.hardskills h1,
+.softskills h1,
+.hardskills h2,
+.softskills h2 {
+  text-align: center;
+}
+
+footer {
+  margin-top: 2em;
+  clear: both;
+  text-align: center;
+  background-color: rgb(113, 223, 203);
+  border-radius: 15px;
+  box-shadow: -2px 2px 4px black;
+}
+
+footer p {
+  font-size: 15pt;
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+span a {
+  text-decoration: none;
+  color: black;
+}
+
+span a:hover {
+  color: white;
+}
+
+.current {
+  color: rgb(65, 133, 59);
+}
